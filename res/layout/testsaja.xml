@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+       android:paddingBottom="15dp"
+        android:background="#019cde"
+        >
+
+        <ImageView
+            android:id="@+id/idku"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logpep"
+           />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$000"
+                    android:textSize="48dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Set Up Wallet Ballance"
+                    android:textColor="#fff"
+                    />
+
+                <LinearLayout
+                   android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5dp"
+                    >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Send Money"
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Request Money"
+                    />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        >
+
+        <ImageView
+            android:id="@+id/gbrcardk"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/wallet"
+            android:scaleType="centerCrop"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            />
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="65dp"
+    android:paddingRight="10dp"
+    android:textAlignment="center"
+    >
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000"
+        />
+
+    <TextView
+        android:textColor="000"
+        android:id="@+id/gbrcard188"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Up Top And Pay"
+        android:textSize="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+
+        />
+    <TextView
+        android:id="@+id/terajl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="there are fee to order and active the Google wallet Card. Use your card to instantly access your wallet balance and make phurchases at millions of mastercard locations"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        />
+
+
+</LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        >
+
+        <ImageView
+            android:id="@+id/gbrcard"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/wallet"
+            android:scaleType="centerCrop"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="65dp"
+            android:paddingRight="10dp"
+            android:textAlignment="center"
+            >
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#000"
+                />
+
+            <TextView
+                android:textColor="000"
+                android:id="@+id/gbrcard1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set Up Top And Pay"
+                android:textSize="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+
+                />
+            <TextView
+                android:id="@+id/tera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="there are fee to order and active the Google wallet Card. Use your card to instantly access your wallet balance and make phurchases at millions of mastercard locations"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        >
+
+        <ImageView
+            android:id="@+id/gbrcarldk"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/wallet"
+            android:scaleType="centerCrop"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="65dp"
+            android:paddingRight="10dp"
+            android:textAlignment="center"
+            >
+
+            <TextView
+                android:textColor="000"
+                android:id="@+id/gbrcard12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set Up Top And Pay"
+                android:textSize="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+
+                />
+            <TextView
+                android:id="@+id/terajana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="there are fee to order and active the Google wallet Card. Use your card to instantly access your wallet balance and make phurchases at millions of mastercard locations"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                />
+
+
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+                >
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#000"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#019cde"
+        android:layout_height="150dp"
+        android:paddingTop="15dp"
+
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/logpep"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/natalie_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="48sp"
+                android:textColor="#fff"
+                android:text="$0.00" />
+
+            <TextView
+                android:id="@+id/natalie_text_view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#fff"
+                android:text="Set Up Wallet Balance" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="decrement"
+                    android:text="Send Money" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="decrement"
+                    android:text="Request Money" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+
+            android:id="@+id/kagure_text_view111"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/payment" />
+
+        <TextView
+            android:id="@+id/kagure_text_view13"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:textSize="24sp"
+            android:text="Set Up tap and pay"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/kagure_text_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make Purchases just by thapping your phone at select merchants"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="60dp"
+            android:textSize="14dp"
+            android:layout_marginTop="40dp"
+            />
+
+        <View android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+
+            android:id="@+id/kagure_text_view11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/wallet" />
+
+        <TextView
+            android:id="@+id/kagure_text_view8"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:textSize="24sp"
+            android:text="Get the Google Wallet"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/kagure_text_view9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spend your wallet Balance at millions of MasterCard Locations"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="60dp"
+            android:textSize="14dp"
+            android:layout_marginTop="40dp"
+            />
+
+        <View android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_alignParentBottom="true"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+
+            android:id="@+id/kagure_text_view6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/change" />
+
+        <TextView
+            android:id="@+id/kagure_text_view4"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:textSize="24sp"
+            android:text="Send Money For Free"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/kagure_text_view5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use Your Debit card to send money for free"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="60dp"
+            android:textSize="14dp"
+            android:layout_marginTop="40dp"/>
+
+        <View android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_alignParentBottom="true"
+            />
+        />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        >
+        <ImageView
+
+            android:id="@+id/kagure_text_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gift" />
+        <TextView
+            android:id="@+id/kagure_text_view1"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:textSize="24sp"
+            android:text="Use Your Gift Card"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/kagure_text_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Never Forget to spend your gift card"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="60dp"
+            android:textSize="14dp"
+            android:layout_marginTop="40dp" />
+
+        <View android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
